@@ -1,11 +1,10 @@
-nav
+.heade
 
 {
-width: fit-content;
+
 background-color: #E554731A;
-height: 850px;
-margin: 0;
-padding: 0;
+height: 777px;
+
 
 }
 .let
@@ -19,5 +18,35 @@ font-size: 60px;
 padding: 20px 43px;
 background: #E55473;
 border-radius: 8px;
-border: o;
+border: none;
+color: white
+;
+}
+
+.banner{
+    display: flex;
+    padding: 60px 60px 60px 150px;
+    justify-content: space-between;
+
+}
+
+.banner .flaer{
+width: 500px;
+
+
+}
+
+
+footer{
+
+    text-align: center;
+    
+    background-color: black;
+    color: white;
+    height: 449px;
+}
+
+footer  h2  p {
+
+    color: white;    ;
 }
