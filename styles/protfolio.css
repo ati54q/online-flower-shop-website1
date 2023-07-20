@@ -1,3 +1,6 @@
+
+/* 1 section or header section  */
+
 .heade
 
 {
@@ -35,6 +38,9 @@ width: 500px;
 
 
 }
+
+
+/* section 2 start  */
 .reader{
     color: #272727;
 text-align: center;
@@ -66,8 +72,6 @@ text-decoration: underline;
 padding: 30px;
 gap: 20px;
 padding-left: 220px;
-
-
 }
 
 .flowe{
@@ -77,10 +81,6 @@ border-radius: 300px 300px 0px 0px;
 background: rgba(167, 33, 98, 0.15);
 flex-shrink: 0;
 height: 
-
-
-
-
 }
 
 .flowee{
@@ -89,8 +89,6 @@ height: ;
 border-radius: 300px 300px 0px 0px;
 background: rgba(5, 151, 160, 0.15);
 height: 
-
-
 }
 
 .floweee{
@@ -109,10 +107,30 @@ background: rgba(71, 125, 17, 0.15);
 height: 370px;
 }
 
+
+/* section 3 start  */
+
 .support-first{
-    height: 250px;
+    height: 200px;
+    padding-left: 150px;
     
 }
+
+.support{
+
+    display: flex;
+   text-align: center;
+   background-color: rgba(39, 39, 39, 0.05);
+   border-radius: 8px;
+   width: 1140px;
+   height: 200px;
+   padding: 20px 20px;
+   margin-top: 80px;
+   gap: 80px;
+     
+}
+
+
 
 .reader-instragram{
 
@@ -146,19 +164,7 @@ font-weight: 800;
 
 }
 
-.support{
 
-   
-    display: flex;
-   text-align: center;
-   background-color: rgba(39, 39, 39, 0.05);
-   border-radius: 8px;
-   width: 1140px;
-   height: 110px;
-   padding: 20px 20px;
-   
-   
-}
 
 
 .hotter{
@@ -166,6 +172,7 @@ font-weight: 800;
     border-radius: 8px;
 background: rgba(229, 84, 115, 0.05);
 padding-top: 150px;
+margin-top: 160px;
 
 }
 
@@ -199,16 +206,59 @@ line-height: normal;
 color: #E55473;
 }
 
+/* section 6 start */
 
 .latest{
 
-    background-image: ;
+position: relative;
+text-align: center;
+width: 100%;
+}
+.get-the{
+
+top: 22%;
+ position: absolute;
+ left: 50%;
+ color: #272727;
+font-family: Lato;
+font-size: 28px;
+font-weight: 800;
+}
+
+.get-p{
+    top: 36%;
+    position: absolute;
+    left: 53%;
+    color: rgba(39, 39, 39, 0.60);
 
 }
 
-.deal{
-    text-align: center;
+.coupon-email
+{
+    top: 54%;
+    position: absolute;
+    left: 30%;
+    width: 500px;
+    height: 34px;
+    border-radius: 8px;
+    border: none;
+    color: white;
+
 }
+
+.but-subs{
+    top: 54%;
+    position: absolute;
+    left: 64%;
+    width: 120px;
+     height: 39px;
+     border-radius: 8px;
+    background: #E55473;
+    border: none;
+   color: white;
+
+}
+/* Last section footer 7 start  */
 
 .reader-top{
         text-align: center;
